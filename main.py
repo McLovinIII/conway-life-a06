@@ -11,7 +11,7 @@ CELL = 18
 class LifeApp(tk.Tk):
     def __init__(self) -> None:
         super().__init__()
-        self.title("Игра «Жизнь» Конвея — вариант А-06")
+        self.title("Игра «Жизнь» Конвея — вариант А-06 Прохоров Денис Александрович БИС 24-3")
         self.board = LifeBoard(rows=25, cols=35)
         self.running = False
         self.after_id: str | None = None
